@@ -1,0 +1,58 @@
+    body {
+        max-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        
+    }
+    nav ul li {
+        padding: 10px;
+        display: block;
+    }
+    nav ul li:hover {
+        background-color: lightgrey;
+    }
+    main img {
+        max-width: 100%;
+    }
+    footer {
+        width: 100vw;
+        height: auto;
+    }
+    @media screen and (min-width: 801px){
+    body {
+        border: 1px solid grey;
+        max-height: 100vh;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+        min-width: 100vw;
+    }
+    nav {
+        width: 33%;
+        max-height: 100vh;
+        display: inline-block;
+        vertical-align: top;
+    }
+    main {
+        width: 46%;
+        max-width: 100vw;
+        max-height: 80vh;
+        display: inline-block;
+        vertical-align: top;
+        overflow-y: scroll;
+    }
+    aside {
+        width: 20%;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+        }
+
+    main img {
+        max-width: 100%;
+    }
+}
